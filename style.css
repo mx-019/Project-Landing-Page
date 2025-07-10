@@ -1,0 +1,159 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+}
+
+.top {
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top:5px;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+
+.hero  {
+    display: flex;
+    padding: 75px 220px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hero #left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.part1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 45px 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+#one, #two, #three, #four {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    row-gap: 5px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.links a, #hero-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+}
+
+.links a {
+    text-decoration: none;
+
+}
+
+.logo a {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+button {
+    border-radius: 8px;
+    padding: 5px;
+    border-color: transparent;
+}
+
+.button-1 {
+    background-color: #3882f6;
+    width: 200px;
+}
+
+
+.part2 {
+    background-color: #e5e7eb;
+    padding: 75px 220px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.call-action {
+    background-color: #3882f6;
+    display: flex;
+    flex:0;
+    margin: 75px 150px;
+    padding: 30px 70px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#left1 {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+#quote-name {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-align: right;
+}
+
+#left1 #call {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin-bottom: 5px;
+}
+
+#left1 #text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button-2 {
+    border: 2px solid #f9faf8;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
